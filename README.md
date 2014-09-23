@@ -1,9 +1,7 @@
 gopro-mgr
 =========
 
-GoPro Camera API Explanation in Android examples implementation
-a
-This came to me as I took part in enthusiastic project, an Android application which manages several GoPro cameras simultaneously.
+This idea came to me as I took part in enthusiastic project, an Android application which manages several GoPro cameras simultaneously.
 As I searched the web I did found some, but not enough information about GoPro WIFI API. GoPro support contributed their share when they told me that they do not support 3rd party developers. However there was one site that helped me to start : http://m.heropro.chernowii.com.
 GoPro camera communication works as Client-Server. If you are connecting to GoPro camera WIFI network you are participant as client and the camera as Server. However when you use GoPro camera with its RC (remote control) the position become opposite, GoPro camera is a client and the RC is aserver.
 This project will only cover the case when GoPro camera is a server.
