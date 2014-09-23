@@ -181,13 +181,16 @@ There is much more request but their response always the same, always [00000000 
 
 Turn On :
 	http://10.5.5.9:80/bacpac/PW?t=123456789&p=%00
+	
 Start Preview: 
 	http://10.5.5.9:80/bacpac/PV?t=qwer1234&p=%02
+	
 Stop Preview : 
 	http://10.5.5.9:80/bacpac/PV?t=qwer1234&p=%00
 
 Delete All: 
 	http://10.5.5.9:80/camera/DA?t=qwer1234
+	
 Delete Last: 
 	http://10.5.5.9:80/camera/DL?t=qwer1234
 
