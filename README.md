@@ -55,7 +55,9 @@ This time the group prefix is added to the name, however the ordinal number is a
 	If you will take another burst mode capture (3 frames in 1 second) you will get another 3 files :
 G0021235.JPG, G0021236.JPG, G0021237.JPG
 Notice that the last 4 digits are increased by 1 from the max value as was on the camera, and the group prefix is advanced as well, identifying the new group.
-	G0021235.JPG
+
+G0021235.JPG
+	
 	002 – Group identifier.
 	1235 – Ordinal number.
 	.JPG - Extention
