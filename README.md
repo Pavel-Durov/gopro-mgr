@@ -125,36 +125,52 @@ http://10.5.5.9:80/bacpac/SH?t=password&p=%00	Stop Capture
 
 http://10.5.5.9:80/camera/VR?t=password&p=%00   WVGA-60fps
 	N/A[00000000 00 00]
+	
 http://10.5.5.9:80/camera/VR?t=password&p=%02	720p 30fps
 	N/A[00000000 00 02]
+	
 http://10.5.5.9:80/camera/VR?t=password&p=%03	720p 60fps
 	N/A[00000000 00 03]
+	
 http://10.5.5.9:80/camera/VR?t=password&p=%04	960p 30fps
 	N/A[00000000 00 04]
+	
 http://10.5.5.9:80/camera/VR?t=password&p=%06	1080p 30fps
 	N/A[00000000 00 06]
+	
 http://10.5.5.9:80/camera/UP?t=password&p=%01	Set camera rotation up side down
 	N/A[00000000 00 01]
+	
 http://10.5.5.9:80/camera/UP?t=qwer1234&p=%00	Set camera rotation normal
 	N/A[00000000 00 00]
+	
 http://10.5.5.9:80/camera/TI?t=password&p=%01	Time Laps 1 sec
 	N/A[00000000 00 01]
+	
 http://10.5.5.9:80/camera/TI?t=password&p=%02	Time Laps 2 sec	
 	N/A[00000000 00 02]
+	
 http://10.5.5.9:80/camera/TI?t=password&p=%05	Time Laps 5 sec	
 	N/A[00000000 00 05]
+	
 http://10.5.5.9:80/camera/TI?t=password&p=%0a	Time Laps 10 sec
 	N/A[00 0a]
+	
 http://10.5.5.9:80/camera/TI?t=password&p=%1e	Time Laps 30 sec
 	N/A[00 1e]
+	
 http://10.5.5.9:80/camera/TI?t=password&p=%3c	Time Laps 60 sec
 	N/A[00 3c]
+	
 http://10.5.5.9:80/camera/TI?t=password&p=%00	Time Laps 0.5 sec
 	N/A[00000000 00 00]
+	
 http://10.5.5.9:80/camera/LL?t=password&p=%01	Locate Camera - (Camera Beeping)
 	N/A[00000000 01]
+	
 http://10.5.5.9:80/camera/LL?t=password&p=%00	Stop Camera Locate
 	N/A[00000000 00]
+	
 http://10.5.5.9:80/camera/BU?t=password&p=%00	Burst Rate 3/1 	
 	N/A[00000000 00]
 
