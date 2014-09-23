@@ -98,17 +98,12 @@ For each request to GoPro Cherokee server you get back byte response which tells
 List of GopPro Request-Response documentation:
 
 
-GOPR0001.JPG 
 
-	.JPG  - Extention on the file.
-	0001 – Ordinal number.
-	GOPR – GoPro file name prefix.
-	
 http://10.5.5.9:80/camera/CM?t=password&p=%00	Video Mode</br>
-[00000000 00 00]
+	[00000000 00 00]
 
 http://10.5.5.9:80/camera/CM?t=password&p=%01	Photo Mode</br>
-[00000000 00 01]
+	[00000000 00 01]
 
 http://10.5.5.9:80/camera/CM?t=password&p=%02	Burst Mode</br>
 [00000000 00 02]
