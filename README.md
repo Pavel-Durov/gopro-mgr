@@ -97,29 +97,29 @@ GoPro API response
 For each request to GoPro Cherokee server you get back byte response which tells you if the request executed on camera.
 List of GopPro Request-Response documentation:
 
-http://10.5.5.9:80/camera/CM?t=password&p=%00	Video Mode
+http://10.5.5.9:80/camera/CM?t=password&p=%00	Video Mode</br>
 [00000000 00 00]
 
-http://10.5.5.9:80/camera/CM?t=password&p=%01	Photo Mode
+http://10.5.5.9:80/camera/CM?t=password&p=%01	Photo Mode</br>
 [00000000 00 01]
 
-http://10.5.5.9:80/camera/CM?t=password&p=%02	Burst Mode
+http://10.5.5.9:80/camera/CM?t=password&p=%02	Burst Mode</br>
 [00000000 00 02]
 
-http://10.5.5.9:80/camera/CM?t=password&p=%03	Time Lapse Mode
+http://10.5.5.9:80/camera/CM?t=password&p=%03	Time Lapse Mode</br>
 [00000000 00 03]
 			
-http://10.5.5.9:80/bacpac/SH?t=password&p=%01	Start Capture
-Video Mode    	        [00000000 00 00],
-Photo Mode            	[00000000 00 01],
-Burst Mode    	        [00000000 00 02],
-Time Lapse Mode        	[00000000 00 03]
+http://10.5.5.9:80/bacpac/SH?t=password&p=%01	Start Capture</br>
+Video Mode    	        [00000000 00 00],</br>
+Photo Mode            	[00000000 00 01],</br>
+Burst Mode    	        [00000000 00 02],</br>
+Time Lapse Mode        	[00000000 00 03]</br>
 
-http://10.5.5.9:80/bacpac/SH?t=password&p=%00	Stop Capture	
-Video Mode      	  [00000000 00 00],
-Photo Mode              [00000000 00 01],
-Burst Mode    	        [00000000 00 02],
-Time Lapse Mode	        [00000000 00 03]
+http://10.5.5.9:80/bacpac/SH?t=password&p=%00	Stop Capture	</br>
+Video Mode      	  [00000000 00 00],</br>
+Photo Mode              [00000000 00 01],</br>
+Burst Mode    	        [00000000 00 02],</br>
+Time Lapse Mode	        [00000000 00 03]</br>
 
 http://10.5.5.9:80/camera/VR?t=password&p=%00   WVGA-60fps
 N/A	                      [00000000 00 00]
